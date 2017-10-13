@@ -1,0 +1,35 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	text-align: center;
+	font-size: 1.2em;
+}
+h1 {
+	margin: 10px;
+}
+p {
+	font-weight: bold;
+	padding: 10px;
+}
+input {
+	padding: 3% 3%;
+	width: 85%;
+	margin: 0 auto;
+}
+#form-wrapper {
+	background-color: rgba(252, 130, 255, 0.2);
+	width: 50%;
+	margin: 0 auto;
+}
+button {
+	padding: 2% 3%;
+	background-color: #93bcff;
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+}
+button:hover {
+	background-color: #f7e956;
+}

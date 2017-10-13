@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>hackGT attendance form</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body><div id="page-content">
+	<h1>Hi, are you boarding the bus to hackGT?</h1>
+	<div id = "form-wrapper">
+	<form>
+		<p id="username">First Name</p>
+		<input type="text" id= "firstname" placeholder="ex. Irfaan">
+		<p></p>
+		<p id="password">Last Name</p>
+		<input type="text" id= "lastname" placeholder="ex. Khalid">
+		<p></p>
+		<button type="submit" onclick="storeUserData()">Submit</button>
+		<p></p>
+	</form>
+	</div>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/4.5.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDsivtlrt--ZQtQXM_bkPAN3iVEdQwqKiA",
+    authDomain: "hackgt-bd085.firebaseapp.com",
+    databaseURL: "https://hackgt-bd085.firebaseio.com",
+    projectId: "hackgt-bd085",
+    storageBucket: "",
+    messagingSenderId: "10071192140"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="script.js"></script>
+</body>
+</html>
